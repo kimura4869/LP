@@ -1,52 +1,4 @@
-/*
-Theme Name: LPtemp_Colorful
-Theme URI: https://lptemp.com
-Author: Seiya Eto
-Author URI: https://pocowan.com/
-Description: 繝代た繧ｳ繝ｳ縺瑚協謇九↑譁ｹ縺ｧ繧ゅ∫ｰ｡蜊倥↓繝ｩ繝ｳ繝�ぅ繝ｳ繧ｰ繝壹�繧ｸ(LP)縺ｮ菴懈�縺悟庄閭ｽ縺ｪ繝��繝槭〒縺吶ゆｽ懊ｊ縺溘＞縺ｨ縺阪↓繧ｵ繧ｯ繝�→菴懊ｌ縲∵･ｵ繧√◆縺�→縺阪↓繝医さ繝医Φ讌ｵ繧√ｉ繧後ｋLP繝�Φ繝励Ξ繝ｼ繝医す繧ｹ繝�Β縲�
-Version: 4.3
-License: Seiya Eto
-License URI: https://pocowan.com/
-Tags: light, gray, white, one-column, flexible-width, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
-Text Domain: lptemp_colorful
 
-This theme, like WordPress, is licensed under the Seiya Eto.
-Use it to make something cool, have fun, and share what you've learned with others.
-*/
-
-/* =Notes
---------------------------------------------------------------
-This stylesheet uses rem values with a pixel fallback. The rem
-values (and line heights) are calculated using two variables:
-
-$rembase:     14;
-$line-height: 24;
-
----------- Examples
-
-* Use a pixel value with a rem fallback for font-size, padding, margins, etc.
-	padding: 5px 0;
-	padding: 0.357142857rem 0; (5 / $rembase)
-
-* Set a font-size and then set a line-height based on the font-size
-	font-size: 16px
-	font-size: 1.142857143rem; (16 / $rembase)
-	line-height: 1.5; ($line-height / 16)
-
----------- Vertical spacing
-
-Vertical spacing between most elements should use 24px or 48px
-to maintain vertical rhythm:
-
-.my-new-div {
-	margin: 24px 0;
-	margin: 1.714285714rem 0; ( 24 / $rembase )
-}
-
----------- Further reading
-
-http://snook.ca/archives/html_and_css/font-size-with-rem
-http://blog.typekit.com/2011/11/09/type-study-sizing-the-legible-letter/
 
 
 /* =Reset
@@ -1530,66 +1482,6 @@ a.comment-edit-link:hover {
 }
 
 
-/* =Widgets
--------------------------------------------------------------- */
-
-.widget-area .widget ul ul {
-	margin-left: 12px;
-	margin-left: 0.857142857rem;
-}
-.widget_rss li {
-	margin: 12px 0;
-	margin: 0.857142857rem 0;
-}
-.widget_recent_entries .post-date,
-.widget_rss .rss-date {
-	color: #aaa;
-	font-size: 11px;
-	font-size: 0.785714286rem;
-	margin-left: 12px;
-	margin-left: 0.857142857rem;
-}
-#wp-calendar {
-	margin: 0;
-	width: 100%;
-	font-size: 13px;
-	font-size: 0.928571429rem;
-	line-height: 1.846153846;
-	color: #686868;
-}
-#wp-calendar th,
-#wp-calendar td,
-#wp-calendar caption {
-	text-align: left;
-}
-#wp-calendar #next {
-	padding-right: 24px;
-	padding-right: 1.714285714rem;
-	text-align: right;
-}
-.widget_search label {
-	display: block;
-	font-size: 13px;
-	font-size: 0.928571429rem;
-	line-height: 1.846153846;
-}
-.widget_twitter li {
-	list-style-type: none;
-}
-.widget_twitter .timesince {
-	display: block;
-	text-align: right;
-}
-
-
-/* =Plugins
------------------------------------------------ */
-
-img#wpstats {
-	display: block;
-	margin: 0 auto 24px;
-	margin: 0 auto 1.714285714rem;
-}
 
 
 
@@ -2374,12 +2266,12 @@ background:none!important;
 
 
 /*
- *		繝帙ヰ繝ｼ繧ｦ繧｣繝ｳ繝峨え逕ｨ繝輔か繝ｼ繝�
+ *
  */
 .formsubmit {
 	/*margin:20px auto 0;*/
-	color:#000;					/*		繝輔か繝ｼ繝�蜀��譁�ｭ苓牡		*/
-	font-size:20px;				/*		繝輔か繝ｼ繝�蜀��譁�ｭ励し繧､繧ｺ	*/
+	color:#000;					/*			*/
+	font-size:20px;				/*			*/
 	width : 100%
 
 }
@@ -2407,23 +2299,23 @@ background:none!important;
 
 
 .formsubmit form .btn {
-	margin:10px auto;			/*		繝懊ち繝ｳ繧ｻ繝ｳ繧ｿ繝ｼ謠�∴	繝槭�繧ｸ繝ｳ�井ｽ咏區�我ｸ翫↓25px縲∽ｸ九↓10px	*/
+	margin:10px auto;			/*			*/
 	clear:both;
 	text-align:center;
 }
 .formsubmit form .btn input {
-	cursor: pointer;			/*		繧ｫ繝ｼ繧ｽ繝ｫ繧呈欠縺ｫ螟画峩	*/
+	cursor: pointer;			/*			*/
 	}
 
 .formsubmit form .btn input:hover {
 	opacity: 0.6;
 	filter: alpha(opacity=60);
-	-ms-filter: "alpha( opacity=60 )";	/*		繧ｫ繧ｦ繝ｳ繧ｿ繝ｼ繧定ｼ峨○繧九→繝懊ち繝ｳ縺ｮ濶ｲ縺悟､峨ｏ繧�	*/
+	-ms-filter: "alpha( opacity=60 )";	/*	*/
 }
 
 
 
-.formsubmit form dd input {/* 繝輔か繝ｼ繝�縺ｮ蜈･蜉帶ｬ�｣�｣ｾ逕ｨ */
+.formsubmit form dd input {/* */
 	height:20px;
 	border:0;
 	margin-right:10px;
@@ -2432,7 +2324,7 @@ background:none!important;
 	font-family:Arial, sans-serif;
 	color:#000;
 	border:solid 1px #ccc;
-	width:280px;					/*		蜈･蜉帶ｬ��蟷�		*/
+	width:280px;					/*			*/
 }
 
 
@@ -2498,13 +2390,13 @@ input[type="color"]:focus,
 form input:hover {
 	opacity: 0.6;
 	filter: alpha(opacity=60);
-	-ms-filter: "alpha( opacity=60 )";	/*		繧ｫ繧ｦ繝ｳ繧ｿ繝ｼ繧定ｼ峨○繧九→繝懊ち繝ｳ縺ｮ濶ｲ縺悟､峨ｏ繧�	*/
+	-ms-filter: "alpha( opacity=60 )";	/*		*/
 }
 
 
 
 /*
- *		繝輔か繝ｼ繝�縺薙％縺ｾ縺ｧ
+ *
  */
 
 
@@ -2514,7 +2406,7 @@ form input:hover {
 
 /*
 -------------------
-繝懊ち繝ｳ陬�｣ｾ
+
 --------------------
  */
 
@@ -2561,7 +2453,7 @@ input[type="submit"].btn-custom-3d,
 input[type="submit"].btn-custom-sma,
 .btn-custom-3d-sma,
 input[type="submit"].btn-custom-3d-sma{
-	margin:10px auto;			/*		繝懊ち繝ｳ繧ｻ繝ｳ繧ｿ繝ｼ謠�∴	繝槭�繧ｸ繝ｳ�井ｽ咏區�我ｸ翫↓25px縲∽ｸ九↓10px	*/
+	margin:10px auto;			/*			*/
 	clear:both;
   	font-size:28px;
   	font-weight:bold;
@@ -2644,7 +2536,7 @@ input[type="submit"].btn-blue-3d,
 input[type="submit"].btn-blue-sma,
 .btn-blue-3d-sma,
 input[type="submit"].btn-blue-3d-sma{
-	margin:10px auto;			/*		繝懊ち繝ｳ繧ｻ繝ｳ繧ｿ繝ｼ謠�∴	繝槭�繧ｸ繝ｳ�井ｽ咏區�我ｸ翫↓25px縲∽ｸ九↓10px	*/
+	margin:10px auto;			/*			*/
 	clear:both;
   	color:#ffffff;
   	font-size:28px;
@@ -2707,7 +2599,7 @@ input[type="submit"].btn-red-3d,
 input[type="submit"].btn-red-sma,
 .btn-red-3d-sma,
 input[type="submit"].btn-red-3d-sma{
-	margin:10px auto;			/*		繝懊ち繝ｳ繧ｻ繝ｳ繧ｿ繝ｼ謠�∴	繝槭�繧ｸ繝ｳ�井ｽ咏區�我ｸ翫↓25px縲∽ｸ九↓10px	*/
+	margin:10px auto;			/*			*/
 	clear:both;
   	color:#ffffff;
   	font-size:28px;
@@ -2771,7 +2663,7 @@ input[type="submit"].btn-green-sma,
 .btn-green-3d-sma,
 input[type="submit"].btn-green-3d-sma{
 
-	margin:10px auto;			/*		繝懊ち繝ｳ繧ｻ繝ｳ繧ｿ繝ｼ謠�∴	繝槭�繧ｸ繝ｳ�井ｽ咏區�我ｸ翫↓25px縲∽ｸ九↓10px	*/
+	margin:10px auto;			/*			*/
 	clear:both;
   	color:#ffffff;
   	font-size:28px;
@@ -2839,7 +2731,7 @@ input[type="submit"].btn-purple-sma,
 .btn-purple-3d-sma,
 input[type="submit"].btn-purple-3d-sma{
 
-	margin:10px auto;			/*		繝懊ち繝ｳ繧ｻ繝ｳ繧ｿ繝ｼ謠�∴	繝槭�繧ｸ繝ｳ�井ｽ咏區�我ｸ翫↓25px縲∽ｸ九↓10px	*/
+	margin:10px auto;			/*			*/
 	clear:both;
   	color:#ffffff;
   	font-size:28px;
@@ -2906,7 +2798,7 @@ input[type="submit"].btn-gray-sma,
 .btn-gray-3d-sma,
 input[type="submit"].btn-gray-3d-sma{
 
-	margin:10px auto;			/*		繝懊ち繝ｳ繧ｻ繝ｳ繧ｿ繝ｼ謠�∴	繝槭�繧ｸ繝ｳ�井ｽ咏區�我ｸ翫↓25px縲∽ｸ九↓10px	*/
+	margin:10px auto;			/*			*/
 	clear:both;
   	color:#ffffff;
   	font-size:28px;
@@ -3077,7 +2969,7 @@ box-shadow:0px 1px 0px #222,
 
 
 .navbar .navbar-inner {
-/*繧ｫ繧ｦ繝ｳ繝医ム繧ｦ繝ｳ驛ｨ蛻�*/
+/**/
 background:#fff;
 -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
 -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
@@ -3122,7 +3014,7 @@ dl.pub_form input {
 
 
 
-/*縲縲繝｡繝九Η繝ｼ縲縲縲*/
+/**/
 
 
 .menu_box {
@@ -3350,7 +3242,7 @@ nav.fixed_menu6 > ul > li > .sub-menu > li {
 	color: #fff;
 }
 
-/* 繝壹�繧ｸ蜀�き繧ｦ繝ｳ繝医ム繧ｦ繝ｳ */
+/*  */
 .navbar-nofix {
 	margin-bottom: 0;
 }
@@ -3440,11 +3332,6 @@ nav.fixed_menu6 > ul > li > .sub-menu > li {
 
 
 
-/* 繝ｼ繝ｼ繝ｼ繝ｼ繝ｼ繝ｼ繝ｼ繝ｼ繝ｼ繝ｼ繝ｼ繝ｼ繝ｼ繝ｼ繝ｼ繝ｼ繝ｼ繝ｼ繝ｼ繝ｼ
-繝懊ち繝ｳ霑ｽ蜉�縲蜍輔￥繝懊ち繝ｳ
-繝ｼ繝ｼ繝ｼ繝ｼ繝ｼ繝ｼ繝ｼ繝ｼ繝ｼ繝ｼ繝ｼ繝ｼ繝ｼ繝ｼ繝ｼ繝ｼ繝ｼ繝ｼ繝ｼ繝ｼ縲*/
-
-
 .entry-content .btn-skewlr-blue,
 .entry-content .btn-skewlr-red,
 .entry-content .btn-skewlr-green,
@@ -3469,7 +3356,7 @@ nav.fixed_menu6 > ul > li > .sub-menu > li {
   z-index: 3;
 
 
--webkit-animation:  anim 2s ease-in infinite; /*繧｢繝九Γ繝ｼ繧ｷ繝ｧ繝ｳ*/
+-webkit-animation:  anim 2s ease-in infinite;
     animation:  anim 2s ease-in infinite;
     transition: all .3s;
 
@@ -3693,9 +3580,9 @@ box-shadow:0px 1px 0px #191919,
 }
 
 
-/* 繝ｼ繝ｼ繝ｼ繝ｼ繝ｼ繝ｼ縲繝懊ち繝ｳ霑ｽ蜉�縲蜍輔￥繝懊ち繝ｳ縲縺薙％縺ｾ縺ｧ縲繝ｼ繝ｼ繝ｼ繝ｼ繝ｼ繝ｼ繝ｼ縲*/
+/* */
 
-/* 2繧ｫ繝ｩ繝� */
+/* */
 #primary {
 	box-sizing: border-box;
 	padding: 0 30px;
@@ -3896,7 +3783,7 @@ top: 0;
 }
 
 
-/* 繧ｫ繝ｼ繝牙梛險倅ｺ倶ｸ隕ｧ */
+/*  */
 .site-content article.card-type {
 	background-color: #fff;
 	box-shadow: 0 2px 5px rgba(0, 0, 0, .13);
@@ -3996,7 +3883,7 @@ article.card-type .noimage img {
 	text-align: right;
 }
 
-/* youtube閭梧勹 */
+/* youtube */
 .bg-youtube .sp-bgimage {
 	position: absolute;
 	width: 100%;
